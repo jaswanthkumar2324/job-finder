@@ -1,0 +1,14 @@
+{
+  "name": "job-finder-root",
+  "version": "1.0.0",
+  "description": "Cloud-automated job board for software developer freshers in India",
+  "scripts": {
+    "setup": "npm install --prefix scraper && npm install --prefix frontend",
+    "scrape": "node scraper/scrape.js",
+    "frontend": "npm run dev --prefix frontend",
+    "start": "npx concurrently --kill-others \"npm run frontend\" \"node scraper/scrape.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

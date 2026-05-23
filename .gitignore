@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+scraper/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+
+# Local database cache (optional, you can keep jobs.json tracked)
+# scraper/jobs.json
+# frontend/src/data/jobs.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

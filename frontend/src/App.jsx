@@ -1,0 +1,403 @@
+import React, { useState, useEffect, useMemo } from 'react';
+import './App.css';
+import rawJobsData from './data/jobs.json';
+
+function App() {
+  const [jobs, setJobs] = useState([]);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [activeCity, setActiveCity] = useState('All');
+  const [selectedJob, setSelectedJob] = useState(null);
+  const [isSyncing, setIsSyncing] = useState(false);
+  const [showSyncModal, setShowSyncModal] = useState(false);
+
+  // Load jobs on mount
+  useEffect(() => {
+    // Sort jobs: Preferred locations first, then by date posted descending
+    const sorted = [...rawJobsData].sort((a, b) => {
+      if (b.is_preferred !== a.is_preferred) {
+        return b.is_preferred - a.is_preferred;
+      }
+      return new Date(b.date_posted || b.date_fetched) - new Date(a.date_posted || a.date_fetched);
+    });
+    setJobs(sorted);
+  }, []);
+
+  // Sync handler (Simulates and displays instructions)
+  const handleSyncClick = () => {
+    setIsSyncing(true);
+    setTimeout(() => {
+      setIsSyncing(false);
+      setShowSyncModal(true);
+    }, 1000);
+  };
+
+  // Extract all unique locations for statistics and filters
+  const cities = ['All', 'Bangalore', 'Hyderabad', 'Chennai', 'Work From Home', 'Others'];
+
+  // Filter jobs based on search query and active city chip
+  const filteredJobs = useMemo(() => {
+    return jobs.filter((job) => {
+      const matchesSearch =
+        job.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        job.company.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        job.location.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (job.skills && job.skills.toLowerCase().includes(searchQuery.toLowerCase()));
+
+      let matchesCity = true;
+      if (activeCity === 'Bangalore') {
+        matchesCity = job.location.toLowerCase().includes('bangalore') || job.location.toLowerCase().includes('bengaluru');
+      } else if (activeCity === 'Hyderabad') {
+        matchesCity = job.location.toLowerCase().includes('hyderabad');
+      } else if (activeCity === 'Chennai') {
+        matchesCity = job.location.toLowerCase().includes('chennai');
+      } else if (activeCity === 'Work From Home') {
+        matchesCity = job.location.toLowerCase().includes('work from home') || job.location.toLowerCase().includes('wfh') || job.location.toLowerCase().includes('remote');
+      } else if (activeCity === 'Others') {
+        const isCommon =
+          job.location.toLowerCase().includes('bangalore') ||
+          job.location.toLowerCase().includes('bengaluru') ||
+          job.location.toLowerCase().includes('hyderabad') ||
+          job.location.toLowerCase().includes('chennai') ||
+          job.location.toLowerCase().includes('work from home') ||
+          job.location.toLowerCase().includes('wfh') ||
+          job.location.toLowerCase().includes('remote');
+        matchesCity = !isCommon;
+      }
+
+      return matchesSearch && matchesCity;
+    });
+  }, [jobs, searchQuery, activeCity]);
+
+  // Statistics
+  const stats = useMemo(() => {
+    const total = jobs.length;
+    const preferred = jobs.filter((j) => j.is_preferred === 1).length;
+    const remote = jobs.filter(
+      (j) =>
+        j.location.toLowerCase().includes('work from home') ||
+        j.location.toLowerCase().includes('wfh') ||
+        j.location.toLowerCase().includes('remote')
+    ).length;
+    const newToday = jobs.filter((j) => {
+      const today = new Date().toISOString().split('T')[0];
+      return j.date_fetched === today || j.date_posted === today;
+    }).length;
+
+    return { total, preferred, remote, newToday };
+  }, [jobs]);
+
+  // Format date helper
+  const formatDate = (dateStr) => {
+    if (!dateStr) return 'Recently';
+    const date = new Date(dateStr);
+    if (isNaN(date.getTime())) return dateStr;
+    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  };
+
+  return (
+    <>
+      <div className="bg-glow-container">
+        <div className="bg-glow-orb-1"></div>
+        <div className="bg-glow-orb-2"></div>
+      </div>
+
+      <div className="app-container">
+        {/* Header */}
+        <header className="app-header">
+          <div className="app-title-section">
+            <h1 className="app-title">NextGen Fresher Jobs</h1>
+            <div className="app-subtitle">
+              <span>Software Engineering Developer Openings</span>
+              <span className="india-badge">India Only</span>
+              <span className="fresher-badge">Freshers (0 Exp)</span>
+            </div>
+          </div>
+
+          <div className="header-actions">
+            <button className="sync-button" onClick={handleSyncClick} disabled={isSyncing}>
+              <svg className={`sync-icon ${isSyncing ? 'spinning' : ''}`} viewBox="0 0 24 24">
+                <path d="M19 8l-4 4h3c0 3.31-2.69 6-6 6-1.01 0-1.97-.25-2.8-.7l-1.46 1.46C8.97 19.54 10.43 20 12 20c4.42 0 8-3.58 8-8h3l-4-4zM6 12c0-3.31 2.69-6 6-6 1.01 0 1.97.25 2.8.7l1.46-1.46C15.03 4.46 13.57 4 12 4c-4.42 0-8 3.58-8 8H1l4 4 4-4H6z" />
+              </svg>
+              {isSyncing ? 'Syncing...' : 'Sync Status'}
+            </button>
+          </div>
+        </header>
+
+        {/* Stats Grid */}
+        <section className="stats-grid">
+          <div className="stat-card">
+            <span className="stat-label">Total Opportunities</span>
+            <span className="stat-value">{stats.total}</span>
+            <span className="stat-decorator">ALL</span>
+          </div>
+          <div className="stat-card">
+            <span className="stat-label">Priority Hubs</span>
+            <span className="stat-value preferred-count">{stats.preferred}</span>
+            <span className="stat-decorator">HUB</span>
+          </div>
+          <div className="stat-card">
+            <span className="stat-label">Remote / WFH</span>
+            <span className="stat-value">{stats.remote}</span>
+            <span className="stat-decorator">WFH</span>
+          </div>
+          <div className="stat-card">
+            <span className="stat-label">Synced Today</span>
+            <span className="stat-value">{stats.newToday}</span>
+            <span className="stat-decorator">NEW</span>
+          </div>
+        </section>
+
+        {/* Search & Filter Panel */}
+        <section className="search-filter-panel">
+          <div className="search-row">
+            <div className="search-input-wrapper">
+              <svg className="search-icon" viewBox="0 0 24 24">
+                <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+              </svg>
+              <input
+                type="text"
+                placeholder="Search by role, company, skills, or location..."
+                className="search-input"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+            </div>
+          </div>
+
+          <div className="filter-row">
+            <span className="filter-label">Filter Location</span>
+            <div className="filter-chips">
+              {cities.map((city) => {
+                const isPref = ['Bangalore', 'Hyderabad', 'Chennai'].includes(city);
+                return (
+                  <button
+                    key={city}
+                    className={`filter-chip ${isPref ? 'preferred-chip' : ''} ${
+                      activeCity === city ? 'active' : ''
+                    }`}
+                    onClick={() => setActiveCity(city)}
+                  >
+                    {city} {isPref && '✦'}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
+        {/* Jobs List Section */}
+        <main className="jobs-section">
+          <div className="jobs-header">
+            <h2 className="jobs-count">
+              Showing <span>{filteredJobs.length}</span> Fresher Software Jobs
+            </h2>
+          </div>
+
+          {filteredJobs.length > 0 ? (
+            <div className="jobs-grid">
+              {filteredJobs.map((job) => (
+                <div
+                  key={job.url}
+                  className={`job-card ${job.is_preferred ? 'preferred' : ''}`}
+                  onClick={() => setSelectedJob(job)}
+                >
+                  <div className="job-card-header">
+                    <div className="job-meta-titles">
+                      <h3 className="job-card-title">{job.title}</h3>
+                      <span className="job-card-company">{job.company}</span>
+                    </div>
+                    {job.is_preferred === 1 && <span className="priority-tag">Priority</span>}
+                  </div>
+
+                  <div className="job-card-details">
+                    <div className="job-detail-row">
+                      <svg className="job-detail-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                      </svg>
+                      <span>{job.location}</span>
+                    </div>
+                    <div className="job-detail-row">
+                      <svg className="job-detail-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8zm4-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5 0.67 1.5 1.5-.67 1.5-1.5 1.5z" />
+                      </svg>
+                      <span>{job.salary}</span>
+                    </div>
+                    <div className="job-detail-row">
+                      <svg className="job-detail-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" />
+                      </svg>
+                      <span>{job.experience || 'Fresher / Entry Level'}</span>
+                    </div>
+                  </div>
+
+                  <div className="job-card-footer">
+                    <span className="posted-date">
+                      Posted: {formatDate(job.date_posted || job.date_fetched)}
+                    </span>
+                    <span className="view-details-text">
+                      Details
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42L16.86 11H5v2z" />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="empty-state">
+              <svg className="empty-state-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+              </svg>
+              <h3 className="empty-state-title">No matching jobs found</h3>
+              <p>Try refining your search query or switching your location filter chip.</p>
+            </div>
+          )}
+        </main>
+      </div>
+
+      {/* Details Side Drawer */}
+      {selectedJob && (
+        <div className="drawer-backdrop" onClick={() => setSelectedJob(null)}>
+          <div className="drawer-container" onClick={(e) => e.stopPropagation()}>
+            <header className="drawer-header">
+              <div className="drawer-meta-title">
+                <span className="job-card-company">{selectedJob.company}</span>
+                <h2 className="job-card-title" style={{ fontSize: '1.4rem', marginTop: '0.25rem' }}>
+                  {selectedJob.title}
+                </h2>
+                <div style={{ display: 'flex', gap: '0.5rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
+                  <span className="india-badge">{selectedJob.location}</span>
+                  <span className="fresher-badge">{selectedJob.salary}</span>
+                  {selectedJob.is_preferred === 1 && <span className="priority-tag">Priority Location</span>}
+                </div>
+              </div>
+              <button className="drawer-close-btn" onClick={() => setSelectedJob(null)}>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                </svg>
+              </button>
+            </header>
+
+            <div className="drawer-body">
+              <div>
+                <h3 className="drawer-section-title">Job Details</h3>
+                <div className="job-card-details" style={{ border: 'none', padding: 0 }}>
+                  <div className="job-detail-row" style={{ marginBottom: '0.5rem' }}>
+                    <strong>Experience Required:</strong> {selectedJob.experience || 'Fresher / Entry Level'}
+                  </div>
+                  <div className="job-detail-row" style={{ marginBottom: '0.5rem' }}>
+                    <strong>Package (CTC):</strong> {selectedJob.salary}
+                  </div>
+                  <div className="job-detail-row" style={{ marginBottom: '0.5rem' }}>
+                    <strong>Date Posted:</strong> {formatDate(selectedJob.date_posted)}
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="drawer-section-title">About the Job & Requirements</h3>
+                <div
+                  className="job-description-html"
+                  dangerouslySetInnerHTML={{ __html: selectedJob.description }}
+                />
+              </div>
+            </div>
+
+            <footer className="drawer-footer">
+              <a
+                href={selectedJob.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="apply-button"
+              >
+                Apply on Internshala
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                </svg>
+              </a>
+            </footer>
+          </div>
+        </div>
+      )}
+
+      {/* Sync Status / Instructions Modal */}
+      {showSyncModal && (
+        <div className="drawer-backdrop" onClick={() => setShowSyncModal(false)}>
+          <div
+            className="drawer-container"
+            style={{
+              width: '90%',
+              maxWidth: '500px',
+              height: 'auto',
+              top: '50%',
+              left: '50%',
+              transform: 'translate(-50%, -50%)',
+              borderRadius: '20px',
+              animation: 'fadeIn 0.2s ease forwards',
+              right: 'auto',
+              border: '1px solid rgba(255,255,255,0.1)'
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <header className="drawer-header" style={{ padding: '1.25rem 1.5rem' }}>
+              <h2 className="job-card-title" style={{ fontSize: '1.25rem' }}>
+                🔄 Job Sync Status & Guide
+              </h2>
+              <button className="drawer-close-btn" onClick={() => setShowSyncModal(false)}>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                </svg>
+              </button>
+            </header>
+
+            <div className="drawer-body" style={{ padding: '1.5rem', gap: '1.25rem' }}>
+              <div style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.6' }}>
+                <p style={{ marginBottom: '1rem' }}>
+                  This dashboard operates <strong>completely serverless</strong>, loading job data from a committed JSON database.
+                </p>
+                
+                <h4 style={{ color: 'var(--text-primary)', marginBottom: '0.5rem', fontSize: '0.95rem' }}>
+                  ☁️ Cloud Automation (When Laptop is Off):
+                </h4>
+                <p style={{ marginBottom: '1rem', paddingLeft: '0.5rem', borderLeft: '2px solid var(--accent-cyan)' }}>
+                  A <strong>GitHub Actions</strong> workflow is scheduled to run daily at <strong>12:00 PM IST</strong> in the cloud. It scrapes new listings, prunes older ones, and commits updates to your repo automatically.
+                </p>
+
+                <h4 style={{ color: 'var(--text-primary)', marginBottom: '0.5rem', fontSize: '0.95rem' }}>
+                  💻 Local Manual Trigger:
+                </h4>
+                <p style={{ marginBottom: '1rem', paddingLeft: '0.5rem', borderLeft: '2px solid var(--accent-purple)' }}>
+                  To scrape new jobs right now from your machine, run the following in your terminal:
+                  <code style={{
+                    display: 'block',
+                    background: 'rgba(0,0,0,0.4)',
+                    padding: '0.5rem',
+                    borderRadius: '6px',
+                    marginTop: '0.5rem',
+                    fontFamily: 'monospace',
+                    color: 'var(--accent-cyan)'
+                  }}>
+                    npm run scrape
+                  </code>
+                </p>
+              </div>
+            </div>
+
+            <footer className="drawer-footer" style={{ padding: '1rem 1.5rem', justifyContent: 'flex-end' }}>
+              <button
+                className="apply-button"
+                style={{ padding: '0.75rem 1.5rem', flex: 'none' }}
+                onClick={() => setShowSyncModal(false)}
+              >
+                Got it
+              </button>
+            </footer>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+
+export default App;
