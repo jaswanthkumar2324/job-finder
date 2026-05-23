@@ -107,7 +107,7 @@ function App() {
           <div className="app-title-section">
             <h1 className="app-title">NextGen Fresher Jobs</h1>
             <div className="app-subtitle">
-              <span>Software Engineering Developer Openings</span>
+              <span>IT & Computer Science Opportunities</span>
               <span className="india-badge">India Only</span>
               <span className="fresher-badge">Freshers (0 Exp)</span>
             </div>
@@ -189,7 +189,7 @@ function App() {
         <main className="jobs-section">
           <div className="jobs-header">
             <h2 className="jobs-count">
-              Showing <span>{filteredJobs.length}</span> Fresher Software Jobs
+              Showing <span>{filteredJobs.length}</span> Fresher IT & CS Jobs
             </h2>
           </div>
 

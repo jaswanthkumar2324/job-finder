@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 
 // Configuration
 const BASE_URL = 'https://internshala.com';
-const LISTING_URL = 'https://internshala.com/jobs/software-developer-jobs';
+const LISTING_URL = 'https://internshala.com/jobs/computer-science-jobs';
 const PAGES_TO_SCRAPE = 3;
 const SLEEP_MS = 1500; // Polite delay between requests
 
