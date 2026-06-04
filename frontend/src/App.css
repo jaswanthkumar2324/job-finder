@@ -684,6 +684,222 @@
   100% { background-position: -200% 0; }
 }
 
+/* Filter Dropdowns */
+.dropdown-wrapper {
+  position: relative;
+  min-width: 180px;
+}
+
+.filter-dropdown {
+  width: 100%;
+  appearance: none;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.9rem 2.5rem 0.9rem 1.2rem;
+  border-radius: 12px;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 550;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23adb5bd'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1.2rem;
+  font-family: var(--font-outfit);
+}
+
+.filter-dropdown:focus {
+  outline: none;
+  border-color: var(--accent-purple);
+  box-shadow: 0 0 10px rgba(157, 78, 221, 0.15);
+  background-color: rgba(15, 18, 29, 0.95);
+}
+
+.filter-dropdown option {
+  background: #0f121d;
+  color: var(--text-primary);
+}
+
+/* Company Logo Styles */
+.company-logo-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+.company-logo-placeholder {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-cyan));
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-outfit);
+  font-weight: 700;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.drawer-company-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  flex-shrink: 0;
+}
+
+.drawer-company-logo-placeholder {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-cyan));
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-outfit);
+  font-weight: 700;
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Organized JD Card Styles */
+.jd-section-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.jd-section-card:hover {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.jd-section-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+}
+
+.jd-section-card.about-the-job::before {
+  background: var(--accent-purple);
+}
+
+.jd-section-card.who-can-apply::before {
+  background: var(--accent-cyan);
+}
+
+.jd-section-card.skills-required::before {
+  background: #ff9f1c;
+}
+
+.jd-section-card.other-requirements::before {
+  background: #ff5470;
+}
+
+.jd-section-card.key-responsibilities::before {
+  background: #4cc9f0;
+}
+
+.jd-section-card.generic-section::before {
+  background: var(--text-muted);
+}
+
+.jd-section-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.jd-section-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.jd-section-card-title {
+  font-family: var(--font-outfit);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.jd-section-card-body {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.jd-section-card-body ul, .jd-section-card-body ol {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.jd-section-card-body li {
+  margin-bottom: 0.5rem;
+}
+
+/* Organized Company Profile Card */
+.company-profile-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.company-profile-card:hover {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.company-profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.company-profile-title {
+  font-family: var(--font-outfit);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.company-profile-body {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
   .drawer-container {
@@ -708,6 +924,11 @@
   
   .search-row {
     flex-direction: column;
+  }
+  
+  .dropdown-wrapper {
+    min-width: 0;
+    width: 100%;
   }
   
   .jobs-grid {

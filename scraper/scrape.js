@@ -123,9 +123,9 @@ async function run() {
     const job = listingJobs[i];
     const existingJob = jobsMap.get(job.url);
     
-    // Check if we need to fetch details (if job is new or description is missing)
-    if (!existingJob || !existingJob.description) {
-      console.log(`[New Job ${i + 1}/${listingJobs.length}] Fetching details for: ${job.title} at ${job.company}`);
+    // Check if we need to fetch details (if job is new, description is missing, or logo is undefined)
+    if (!existingJob || !existingJob.description || existingJob.company_logo === undefined) {
+      console.log(`[New/Unmigrated Job ${i + 1}/${listingJobs.length}] Fetching details for: ${job.title} at ${job.company}`);
       try {
         await sleep(SLEEP_MS);
         const detailResponse = await axios.get(job.url, { headers });
@@ -133,7 +133,7 @@ async function run() {
         
         let descriptionHtml = '';
         let datePosted = new Date().toISOString().split('T')[0];
-        let experience = '0 Years';
+        let companyLogo = '';
         
         // Try parsing JSON-LD Schema first (highly reliable)
         let schemaParsed = false;
@@ -144,7 +144,9 @@ async function run() {
               const schema = JSON.parse(content);
               descriptionHtml = schema.description || '';
               datePosted = schema.datePosted || datePosted;
-              experience = schema.experience || '0 Years';
+              if (schema.hiringOrganization && schema.hiringOrganization.logo) {
+                companyLogo = schema.hiringOrganization.logo;
+              }
               schemaParsed = true;
             }
           } catch (e) {
@@ -152,7 +154,7 @@ async function run() {
           }
         });
         
-        // Fallback HTML Selector Parsing
+        // Fallback HTML Selector Parsing for description
         if (!schemaParsed || !descriptionHtml) {
           const detailHeading = $d('.detail_heading:contains("About the job")');
           if (detailHeading.length > 0) {
@@ -170,12 +172,39 @@ async function run() {
           descriptionHtml = '<p>No description available. Please check the apply link for details.</p>';
         }
 
+        // Extract experience requirement from detail page
+        let experience = '0 Years';
+        const expEl = $d('.job-experience-item .item_body');
+        if (expEl.length > 0) {
+          experience = expEl.first().text().trim();
+        } else {
+          // Alternate search for "Experience" heading in other detail items
+          $d('.other_detail_item').each((_, el) => {
+            const heading = $d(el).find('.item_heading').text().toLowerCase();
+            if (heading.includes('experience')) {
+              experience = $d(el).find('.item_body').text().trim();
+            }
+          });
+        }
+        
+        // Try to get company logo from HTML if schema parsing missed it
+        if (!companyLogo) {
+          const logoEl = $d('.heading_logo_container img, .logo_container img, .company_logo img');
+          if (logoEl.length > 0) {
+            companyLogo = logoEl.first().attr('src') || '';
+            if (companyLogo && !companyLogo.startsWith('http')) {
+              companyLogo = BASE_URL + (companyLogo.startsWith('/') ? '' : '/') + companyLogo;
+            }
+          }
+        }
+
         const freshJob = {
           ...job,
           description: descriptionHtml,
           is_preferred: checkPreferred(job.location) ? 1 : 0,
           date_posted: datePosted,
           experience: experience,
+          company_logo: companyLogo,
           date_fetched: new Date().toISOString().split('T')[0]
         };
 
@@ -190,6 +219,7 @@ async function run() {
           is_preferred: checkPreferred(job.location) ? 1 : 0,
           date_posted: new Date().toISOString().split('T')[0],
           experience: '0 Years',
+          company_logo: '',
           date_fetched: new Date().toISOString().split('T')[0]
         };
         updatedJobs.push(failedJob);
@@ -209,14 +239,8 @@ async function run() {
     }
   }
 
-  // 4. Filter jobs: keep only freshers (experience <= 1 year or containing '0' or 'fresher')
-  // Internshala is mostly freshers, but double check
-  const finalJobs = Array.from(jobsMap.values()).filter(job => {
-    // Keep it if it has no experience text or matches fresher keywords
-    if (!job.experience) return true;
-    const exp = job.experience.toLowerCase();
-    return exp.includes('fresher') || exp.includes('0') || exp.includes('1 year') || exp.includes('no experience');
-  });
+  // 4. Keep all scraped jobs and let the frontend filter them dynamically
+  const finalJobs = Array.from(jobsMap.values());
 
   // 5. Clean up old jobs (older than 30 days)
   const thirtyDaysAgo = new Date();
