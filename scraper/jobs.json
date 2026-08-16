@@ -1,44 +1,5 @@
 [
   {
-    "title": "Backend Developer",
-    "company": "Sentriscope Data Intelligence Private Limited",
-    "location": "Mumbai",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/backend-developer-job-in-mumbai-at-sentriscope-data-intelligence-private-limited1784269250",
-    "description": "<br><p>About the job:</p>Key Responsibilities: <br />\n<br />\n1. Develop, optimize, and maintain scalable backend services and RESTful APIs.<br />\n2. Implement efficient strategies to ensure high performance, low latency, and secure endpoints.<br />\n3. Integrate and work with various SQL and NoSQL databases using ORM tools.<br />\n4. Utilize caching mechanisms to improve application performance.<br />\n5. Work with and manage different backend packages, libraries, and utilities.<br />\n6. Write clean, maintainable, and well-documented code using Node.js and TypeScript.<br />\n7. Deploy, monitor, and troubleshoot applications in Linux-based environments.<br />\n8. Collaborate with frontend and product teams to ensure seamless integration.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 4,00,000 - 6,00,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-08-16 23:59:59<br><br><p>Other perks:</p>Informal dress code, 5 days a week, Free snacks & beverages, Health Insurance<br><br><p>Skills required:</p>MySQL, MongoDB, Node.js, Express.js, REST API, TypeScript and CI/CD<br><br><p>Other Requirements:</p><ol><li>1. 2–3 years of experience as a backend developer.</li><li>2. Strong proficiency in Node.js and TypeScript.</li><li>3. Experience with commonly used Node packages and development tools.</li><li>4. Solid understanding of SQL and NoSQL databases (e.g., MySQL, PostgreSQL, MongoDB) and their ORM/ODM frameworks.</li><li>5. Knowledge of caching techniques (Redis, in-memory caching, etc.).</li><li>6. Ability to write optimized, fast, and secure API endpoints.</li><li>7. Good command of Linux/Unix environment and common shell commands.</li><li>8. Familiarity with basic frontend concepts (React, HTML/CSS, or similar) is a plus.</li><li>9. Hands-on experience with CI/CD pipelines, containerization (Docker), and cloud platforms (AWS, GCP, or Azure).</li></ol><br><br><p>About Company:</p>At Sentriscope Data Intelligence Private Limited, we are committed to transforming raw data into meaningful insights that empower businesses to navigate the complexities of their industries with confidence. Our core services include information services, designed to provide real-time, context-rich, and accurate data essential for informed decision-making, and data filing services, offering comprehensive solutions to systematically organize and store data for easy retrieval and effective analysis. At Sentriscope, we believe in the power of data to shape the future and drive impactful business outcomes.",
-    "is_preferred": 0,
-    "date_posted": "2026-07-17",
-    "experience": "1 year(s)",
-    "company_logo": "https://internshala-uploads.internshala.com/logo%2Fdxoy8pv77yk-12922.jpg.webp",
-    "date_fetched": "2026-07-17"
-  },
-  {
-    "title": "Coding & AI Teacher",
-    "company": "SR Edu Technologies",
-    "location": "Agra, Mothkur",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/fresher-coding-ai-teacher-job-in-multiple-locations-at-sr-edu-technologies1784269001",
-    "description": "\n    Are you a coding enthusiast with expertise in Python and HTML? Join our team at SR Edu Technologies as a coding teacher and help us empower the next generation of tech professionals! <br>\n<br>\nKey Responsibilities:<br>\n<br>\n1. Develop and deliver engaging coding lessons using Python and HTML for students of all skill levels.<br>\n2. Create hands-on coding projects to enhance students' practical skills and understanding.<br>\n3. Provide individualized support and guidance to students to help them overcome coding challenges.<br>\n4. Foster a collaborative and inclusive learning environment that encourages creativity and problem-solving.<br>\n5. Stay updated on the latest trends and advancements in coding languages to ensure students receive the most relevant education.<br>\n6. Collaborate with colleagues to continuously improve our coding curriculum and teaching methods.<br>\n7. Inspire and motivate students to pursue further education and careers in the tech industry.<br>\n<br>\nIf you are passionate about coding and education, and if you have a knack for making complex concepts easy to understand, we want to hear from you! Join us in shaping the future of tech education at SR Edu Technologies. Apply now!",
-    "is_preferred": 0,
-    "date_posted": "2026-07-17",
-    "experience": "No experience required",
-    "company_logo": "",
-    "date_fetched": "2026-07-17"
-  },
-  {
-    "title": "QA Engineer",
-    "company": "Unibots",
-    "location": "Delhi",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/qa-engineer-job-in-delhi-at-unibots1784183354",
-    "description": "<br><p>About the job:</p>Key Responsibilities:<br />\n<br />\n1. Understand business requirements and prepare test scenarios and test cases.<br />\n2. Perform functional, regression, smoke, and sanity testing.<br />\n3. Execute test cases and report bugs with clear reproduction steps.<br />\n4. Verify UI, API, and data validation across web applications.<br />\n5. Perform cross-browser and responsive testing.<br />\n6. Validate application data using SQL queries.<br />\n7. Work closely with developers to reproduce and resolve issues.<br />\n8. Participate in sprint planning, daily stand-ups, and QA discussions.<br />\n9. Learn and contribute to automation testing using Playwright and JavaScript.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 4,00,000 - 6,00,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-08-15 23:59:59<br><br><p>Other perks:</p>Informal dress code, 5 days a week, Free snacks & beverages, Health Insurance<br><br><p>Skills required:</p>Java, SQL, Software Testing, Problem Solving, GitHub, Jira, Postman, APIs, Software Development Life Cycle (SDLC) and Troubleshooting<br><br><p>Other Requirements:</p><ol><li>1. Hands-on exposure to Playwright or Selenium.</li><li>2. Basic understanding of automation frameworks.</li><li>3. Knowledge of JSON and API response validation.</li><li>4. Familiarity with Agile/Scrum methodology.</li><li>5. Personal automation or testing projects on GitHub.</li></ol><br><br><p>About Company:</p>Unibots is a next-generation AdTech company which is on a mission to build unique monetisation solutions for publishers across the globe.",
-    "is_preferred": 0,
-    "date_posted": "2026-07-16",
-    "experience": "1 year(s)",
-    "company_logo": "",
-    "date_fetched": "2026-07-17"
-  },
-  {
     "title": "Full Stack Developer",
     "company": "Infoware",
     "location": "Ahmedabad",
@@ -2702,5 +2663,83 @@
     "experience": "1 year(s)",
     "company_logo": "",
     "date_fetched": "2026-08-15"
+  },
+  {
+    "title": "Data Annotator",
+    "company": "QuickHyre",
+    "location": "Bangalore",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/fresher-part-time-data-annotator-job-in-bangalore-at-quickhyre1786782838",
+    "description": "<br><p>About the job:</p>We're looking for a detail-driven individual to help produce and review the labelled image and video data that trains and fine-tunes AI models. You'll be one of the people in the loop who make AI systems accurate- turning raw footage into the structured, high-quality data models actually learn from.<br />\n<br />\nKey Responsibilities:<br />\n<br />\n1. Apply precise labels, tags, timestamps, segment boundaries, and attribute flags to image and video content while following detailed project guidelines<br />\n2. Review and validate annotations for consistency and accuracy, including your own submissions and, as you grow in the role, other contributors' work<br />\n3. Resolve ambiguous or edge-case data points using judgment grounded in the project's annotation guidelines and flag genuinely unclear cases to your reviewer rather than guessing<br />\n4. Validate and correct AI-generated outputs as part of model fine-tuning workflows, flagging where a model's output is wrong, inconsistent, or low-confidence<br />\n5. Work within annotation tools and internal platforms to complete and submit labelled batches against agreed targets<br />\n6. Communicate with your reviewer or team lead to clarify guideline questions and incorporate feedback into future batches<br />\n7. Maintain strict confidentiality of project data and any client information you're exposed to<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are from Bangalore only</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 2,00,000 - 3,00,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-09-14 23:59:59<br><br><p>Skills required:</p>Data Annotation<br><br><p>Other Requirements:</p><ol><li>A. What you'll need:</li><li>1. High attention to detail and consistency across repetitive, detail-sensitive work</li><li>2. Ability to follow detailed, sometimes-evolving written instructions precisely</li><li>3. Comfort with digital tools, structured data entry, and web-based platforms</li><li>4. Clear written communication- for flagging issues and asking the right clarifying questions</li><li>5. A personal computer or laptop with a stable internet connection</li><li>6. No prior annotation or coding experience required- full guidelines and training provided</li><li>B. Nice to have:</li><li>1. Prior exposure to annotation tools such as CVAT, Labelbox, or Supervisely</li><li>2. Basic familiarity with computer vision or machine learning concepts</li><li>3. Prior data entry, QA, or research-assistant experience</li></ol><br><br><p>About Company:</p>QuickHyre is an AI-powered job hiring and finding platform that bridges the gap between job seekers, recruiters, and educational institutions. We leverage cutting-edge AI technology to streamline recruitment processes, making job matching, resume screening, and virtual interviews more efficient. ",
+    "is_preferred": 1,
+    "date_posted": "2026-08-15",
+    "experience": "No experience required",
+    "company_logo": "",
+    "date_fetched": "2026-08-16"
+  },
+  {
+    "title": "Junior Front End Developer",
+    "company": "Findestinations Internet Private Limited",
+    "location": "Work from home",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/fresher-remote-junior-front-end-developer-job-at-findestinations-internet-private-limited1786807238",
+    "description": "<br><p>About the job:</p>Findestinations is looking for a motivated and detail-oriented Front End Developer - Fresher / Entry Level to join our remote team.<br />\n<br />\nYou will work on our website and digital projects, helping build, update, and improve web pages with a strong focus on clean design, responsiveness, speed, usability, and overall user experience.<br />\n<br />\nThis is a good opportunity for a fresher who wants practical experience working on a live website and developing real-world frontend skills. Candidates with knowledge of HTML, CSS, JavaScript, WordPress, and Elementor are encouraged to apply.<br />\n<br />\nKey responsibilities:<br />\n<br />\n1- Develop, update, and maintain responsive web pages using HTML, CSS, and JavaScript.<br />\n2- Create and modify website pages using WordPress and Elementor while maintaining a consistent design and user experience.<br />\n3- Ensure web pages work properly across desktop, tablet, and mobile devices.<br />\n4- Improve website layouts, navigation, page structure, and overall user experience.<br />\n5- Troubleshoot frontend issues, identify bugs, and make necessary fixes.<br />\n6- Optimize pages for speed, responsiveness, and basic technical SEO requirements.<br />\n7- Work with existing HTML/CSS code and make improvements without affecting website functionality.<br />\n8- Assist with creating landing pages, promotional sections, banners, buttons, forms, and other website elements.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 6,00,000 - 8,00,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-09-14 23:59:59<br><br><p>Other perks:</p>5 days a week, Health Insurance<br><br><p>Skills required:</p>HTML, CSS, JavaScript, WordPress and Responsive Design<br><br><p>Other Requirements:</p><ol><li>1- Computer Science, IT, Web Development, or a related degree/diploma preferred, but not mandatory.</li><li>2- Basic knowledge of WordPress and Elementor will be an advantage.</li><li>3- Good attention to detail and willingness to learn new web technologies.</li><li>4- Comfortable working independently in a remote environment and communicating through online collaboration tools.</li></ol><br><br><p>About Company:</p>Findestinations is a travel-focused content platform dedicated to inspiring global exploration through authentic stories, detailed guides, and destination reviews. With over 260,000 monthly users from the United States, Canada, Europe, and other key markets, we collaborate with local writers and travel enthusiasts to deliver curated travel content that informs and engages. Our platform promotes trusted travel brands and services through SEO-optimized articles, affiliate partnerships, and comparison-based content. At Findestinations, we strive to help users discover the best travel options while supporting partners with meaningful traffic and conversions.",
+    "is_preferred": 0,
+    "date_posted": "2026-08-15",
+    "experience": "No experience required",
+    "company_logo": "https://internshala-uploads.internshala.com/logo%2Fg28nnr6mmeu-50273.png.webp",
+    "date_fetched": "2026-08-16"
+  },
+  {
+    "title": "Assistant Manager/Sr Executive-Regulatory Affairs-Food Safety, Hygience & Compliance",
+    "company": "Fortune Gourmet Specialities Private Limited",
+    "location": "Mumbai",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/assistant-manager-sr-executive-regulatory-affairs-food-safety-hygience-compliance-job-in-mumbai-at-fortune-gourmet-specialities-private-limited1781483425",
+    "description": "<br><p>About the job:</p>Key Responsibilities:<br />\nCompliance &amp; Regulatory Affairs:Monitor &amp; ensure adherence to FSSAI, Legal Metrology, and other statutory regulations for domestic and import shipments.Apply for new licenses or modifications, maintain policy relationships with regulatory authorities.Interpret and implement notifications from FSSAI, Legal Metrology, and other regulatory bodies.<br />\nQuality &amp; Food Safety:Drive HACCP systems across all distribution centers.Develop training manuals and conduct workshops to create a food safety culture for sourcing, supply chain, and 3PL vendors.Establish an efficient Food Safety Management System and ensure product quality compliance across the supply chain.Lead vendor audits and ensure risk management for all compliance activities.Implement ISO 22000:2018 standards across distribution centers.Train staff on health, hygiene, and safety across various verticals (Coffee, Customer Service, etc.).<br />\nProduct Compliance:Review new and existing products to manage compliance with domestic and global regulations.Assist in developing SOPs &amp; specifications for food categories in coordination with suppliers.<br />\nDesired Candidate Profile:Food Technologist with knowledge of HACCP, ISO 22000, FSSAI, Legal Metrology5+ years in processed foods (Meats, Seafood, Dairy, Breads, etc.)Excellent communication skills, team coordination, and MS Office proficiencyStrong analytical and problem-solving skills<br />\nPlease mention:Current CTCExpected CTCNotice Period<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 8 years of experience</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 4,80,000 - 6,00,000 /year<br><br><p>Experience:</p>8 year(s)<br><br><p>Deadline:</p>2026-10-16 23:59:59",
+    "is_preferred": 0,
+    "date_posted": "2026-06-15",
+    "experience": "8 year(s)",
+    "company_logo": "https://internshala-uploads.internshala.com/logo%2F32f8jsmjtue.jpeg",
+    "date_fetched": "2026-08-16"
+  },
+  {
+    "title": "MERN Stack Developer",
+    "company": "Neemtree Internet Private Limited",
+    "location": "Work from home",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/fresher-remote-mern-stack-developer-job-at-neemtree-internet-private-limited1785760141",
+    "description": "<br><p>About the job:</p>We are seeking a Full Stack Developer to work on our AI-powered HR tech/ATS platform. The candidate will contribute to building scalable web applications and implementing AI-driven features using modern web technologies and LLM-based solutions.<br />\n<br />\nKey responsibilities:<br />\n<br />\n1. Develop and maintain frontend and backend features using the MERN stack<br />\n2. Design and consume REST APIs and integrate third-party services<br />\nImplement AI-powered features using LLM APIs, RAG pipelines, and prompt-based workflows<br />\n3. Work with Redis for caching and OpenSearch for search and analytics<br />\n4. Optimize performance, scalability, and security of the platform<br />\n5. Collaborate with product, AI, and engineering teams<br />\n<br />\nTech stack:<br />\n<br />\n1. MERN Stack (MongoDB, Express.js, React.js, Node.js)<br />\n2. Redis, OpenSearch<br />\n3. AWS (Cloud Services)<br />\n4. Google Gemini & other LLM APIs<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 3,00,000 - 4,00,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-09-02 23:59:59<br><br><p>Other perks:</p>5 days a week<br><br><p>Skills required:</p>Data Structures and MERN<br><br><p>Other Requirements:</p><ol><li>A. Candidate requirements:</li><li>1. Strong fundamentals in Data Structures & Algorithms</li><li>2. Good understanding of JavaScript and web application architecture</li><li>3. Hands-on experience or academic projects in the MERN stack</li><li>4. Exposure to AI solutions using LLM APIs (Google Gemini, OpenAI, etc.)</li><li>5. Understanding of RAG (Retrieval-Augmented Generation) concepts</li><li>6. Basic knowledge of databases, APIs, and system design</li><li>B. Good to have:</li><li>1. Experience with AWS services</li><li>2. Familiarity with Redis, OpenSearch / Elasticsearch</li><li>3. Git/GitHub and CI/CD basics</li><li>4. Prior work on AI, NLP, or SaaS projects</li></ol><br><br><p>About Company:</p>Neemtree Internet Private Limited is a specialized talent solution firm with a focus on the internet, mobile, cloud, and software products sectors. We bring strong domain expertise in the sectors of consumer internet, consumer mobile, e-commerce, m-commerce, cloud computing, SaaS, B2B internet-based services, etc. We provide superior service to our clients because of our focus and domain knowledge. Our current clients include established companies, early-stage, and late-stage startups backed by marquee venture capital firms.",
+    "is_preferred": 0,
+    "date_posted": "2026-08-03",
+    "experience": "No experience required",
+    "company_logo": "",
+    "date_fetched": "2026-08-16"
+  },
+  {
+    "title": "Cybersecurity & SASE Analyst (Fresher)",
+    "company": "Gigabit Technologies Pvt Limited",
+    "location": "Gurgaon, Delhi, Faridabad, Ghaziabad, Noida",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/fresher-cybersecurity-sase-analyst-fresher-job-in-multiple-locations-at-gigabit-technologies-pvt-limited1785285025",
+    "description": "\n    We are looking for a driven and technically curious Cybersecurity &amp; SASE Analyst (Fresher) to join our delivery and pre-sales team in Delhi. This is a hands-on role  you will work directly alongside senior engineers on live client deployments, POCs, and solution design across endpoint security, network security, and cloud-delivered SASE platforms.If you want to build a serious career in cybersecurity and not spend your first two years making PowerPoints, this is the role for you.Key ResponsibilitiesAssist in the implementation, configuration, and troubleshooting of SASE solutions (Zscaler ZIA, ZPA, ZDX) across enterprise client environmentsSupport endpoint security deployments and policy management (EDR/XDR platforms)Assist with network security assessments  firewall rules, VPN configurations, segmentation, and access controlParticipate in Proof of Concept (POC) engagements  environment setup, testing, documentation, and client-facing demonstrationsPrepare technical documentation including HLDs, LLDs, prerequisite checklists, and MoMsMonitor security events, analyse logs, and assist in identifying vulnerabilities and misconfigurations across client environmentsResearch and stay current on emerging cybersecurity threats, OEM product updates, and industry best practicesSupport pre-sales activities  RFP/RFQ responses, BOQs, and technical presentationsEducationB.Tech / B.E. in Computer Science, Information Technology, Electronics, or related fieldFresher (01 year of experience); strong internship experience in cybersecurity will be an advantageTechnical SkillsFoundational knowledge of network security concepts  firewalls, IDS/IPS, VPN, NAC, DNS, proxiesUnderstanding of endpoint security  antivirus, EDR, device control, application whitelistingFamiliarity with SASE concepts  Zero Trust, secure web gateway, CASB, ZTNABasic knowledge of networking fundamentals  TCP/IP, OSI model, routing, switching, VLANsExposure to cloud platforms (AWS, Azure, GCP) is a plusKnowledge of common frameworks  NIST CSF, ISO 27001, MITRE ATT&amp;CK  is advantageousHands-on experience (labs, projects, or internship) with any security platform is a strong plusCertifications (preferred but not mandatory)CompTIA Security+Zscaler ZDTA / ZCACisco CyberOps AssociateCEH (Certified Ethical Hacker)Any vendor certification from Tenable, Palo Alto, Fortinet, or similar Skills: Cyber Security and Network Security",
+    "is_preferred": 0,
+    "date_posted": "2026-08-16",
+    "experience": "No experience required",
+    "company_logo": "",
+    "date_fetched": "2026-08-16"
+  },
+  {
+    "title": "Computer System Validation",
+    "company": "INSTRUMENTATION AND CONTROL SOLUTIONS",
+    "location": "Pithampur, Panaji, Maharashtra, Mandideep",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/computer-system-validation-job-in-multiple-locations-at-instrumentation-and-control-solutions1783038626",
+    "description": "\n    We're Hiring  CSV Engineer <br>\n Locations:<br>\nGoa<br>\nPune<br>\nMandideep<br>\nNagpur<br>\nPithampur<br>\nNashik<br>\n Experience: 24 Years Required Skills:<br>\nComputer System Validation (CSV)<br>\nStrong knowledge of GAMP<br>\nHands-on experience with 21 CFR Part 11<br>\nExecution of IQ, OQ &amp; PQ protocols<br>\nValidation Lifecycle documentation<br>\nRisk Assessment &amp; Change Control<br>\nGood understanding of GMP compliance<br>\nExcellent documentation and communication skills Qualification:<br>\nBachelor's Degree in Engineering, Computer Science, IT, Instrumentation, Electronics, or a related field. Apply Now:<br>\n hr@ics-india.co.in<br>\n  +91 91091 88252<br>\nJoin our growing team and build your career in Pharma Automation &amp; Computer System Validation!",
+    "is_preferred": 0,
+    "date_posted": "2026-08-16",
+    "experience": "1 year(s)",
+    "company_logo": "",
+    "date_fetched": "2026-08-16"
   }
 ]
