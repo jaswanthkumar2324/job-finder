@@ -1,70 +1,5 @@
 [
   {
-    "title": "Android App Developer",
-    "company": "AppVersal",
-    "location": "Greater Noida, Noida",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/android-app-developer-job-in-multiple-locations-at-appversal1785237046",
-    "description": "\n    Key responsibilities: <br>\n<br>\n1. Develop and maintain mobile applications using React Native. <br>\n2. Build clean, responsive, and user-friendly app interfaces for Android and iOS. <br>\n3. Write high-quality code using JavaScript and/or TypeScript. <br>\n4. Integrate REST APIs, third-party SDKs, payment gateways, analytics tools, and backend services. <br>\n5. Work closely with UI/UX designers to convert designs into functional app screens. 6. Fix bugs, improve app performance, and ensure a smooth user experience. Handle app state management using Redux, Zustand, Context API, MobX, or similar tools. 7. Manage app releases on Google Play Store and Apple App Store. <br>\n8. Write clean, reusable, and well-documented code. <br>\n9. Collaborate with backend developers, designers, QA, and product teams on daily tasks. <br>\n10. Test applications on different devices, OS versions, and screen sizes. <br>\n11. Monitor crash reports, logs, and user feedback to improve app quality.",
-    "is_preferred": 0,
-    "date_posted": "2026-07-29",
-    "experience": "1 year(s)",
-    "company_logo": "",
-    "date_fetched": "2026-07-29"
-  },
-  {
-    "title": "AI Engineer-Generative AI",
-    "company": "Clerwell Private Limited",
-    "location": "Bangalore",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/fresher-ai-engineer-generative-ai-job-in-bangalore-at-clerwell-private-limited1785301048",
-    "description": "<br><p>About the job:</p>Key responsibilities:<br />\n<br />\n1. Develop generative AI applications using large language models and modern AI frameworks.<br />\n2. Build AI agents and AI workers capable of completing multi-step business tasks.<br />\n3. Design and implement retrieval-augmented generation pipelines using company documents and structured data.<br />\n4. Integrate AI models with APIs, databases, business applications, and third-party services.<br />\n5. Evaluate model outputs for accuracy, reliability, latency, and cost.<br />\n6. Experiment with open-source and commercial AI models and select appropriate models for different use cases.<br />\n7. Develop backend services and APIs using Python.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 3,00,000 - 7,80,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-08-28 23:59:59<br><br><p>Other perks:</p>Free snacks & beverages<br><br><p>Skills required:</p>Python, GitHub, English Proficiency (Spoken), English Proficiency (Written), Artificial intelligence, PyTorch, Generative AI Development, Machine Learning Operations (MLOps), LLMOps and Model fine-tuning<br><br><p>Other Requirements:</p><ol><li>1. Strong Python programming skills and a good understanding of machine learning and generative AI.</li></ol><br><br><p>About Company:</p>Clerwell Private Limited is building autonomous AI workers for businesses. Our platform helps companies deploy AI employees that can communicate through email, Slack, Microsoft Teams, WhatsApp, and other workplace tools, understand company knowledge, complete assigned tasks, and work alongside human teams.",
-    "is_preferred": 1,
-    "date_posted": "2026-07-29",
-    "experience": "No experience required",
-    "company_logo": "",
-    "date_fetched": "2026-07-29"
-  },
-  {
-    "title": "Back Office Executive (WFH/Part Time Job)",
-    "company": "Desnor Destination",
-    "location": "Work from home",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/fresher-remote-part-time-back-office-executive-wfh-part-time-job-job-at-desnor-destination1785309011",
-    "description": "<br><p>About the job:</p>We are looking for a talented Back Office Executive to join our team at Desnor Destination company. This is a work from home opportunity, perfect for those looking for a part-time position. As a Back Office Executive, you will play a crucial role in supporting the backbone of our organization. <br />\n<br />\nKey Responsibilities:<br />\n1. Utilize your expertise in Backbone.js and backend development to assist in managing and maintaining our company's systems and databases.<br />\n2. Proficiently handle tasks related to MS-Office and office management to ensure smooth operations on a day-to-day basis.<br />\n3. Conduct data analysis, annotation, engineering, cleaning, extraction, and manipulation to provide valuable insights for decision-making.<br />\n4. Assist in organizing and managing company data to ensure accuracy and efficiency in data processing.<br />\n5. Collaborate with various teams to streamline data processes and improve overall data quality.<br />\n6. Generate reports and presentations using data analysis to help drive business growth and strategy.<br />\n7. Stay updated with industry trends and best practices to continuously improve our data management processes.<br />\n<br />\nIf you have a passion for data and backend development, along with strong organizational skills and attention to detail, we want to hear from you. Join us at Desnor Destination and be a key player in our company's success. Apply now!<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 3,00,000 - 5,00,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-08-28 23:59:59<br><br><p>Skills required:</p>MS-Office, Backbone.js, Backend development, Data Analysis, Office Management, Data Extraction, Data Cleaning, Data Manipulation, Data Engineering and Data Annotation<br><br><p>About Company:</p>Desnor Destination was founded in 2017 with the single mission of delivering high-quality travel & tourism services to worldwide customers. Desnor Destination is a state-of-the-art, futuristic company providing travel & tourism services by integrating people, processes and technology, to focus on the customers. Desnor Destination brings together the best in people, process and technology to ensure delivery of the highest quality services.",
-    "is_preferred": 0,
-    "date_posted": "2026-07-29",
-    "experience": "No experience required",
-    "company_logo": "",
-    "date_fetched": "2026-07-29"
-  },
-  {
-    "title": "Automation Engineer (Full Stack + Low Code)",
-    "company": "Kalash Group",
-    "location": "Jaipur",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/fresher-automation-engineer-full-stack-low-code-job-in-jaipur-at-kalash-group1782625626",
-    "description": "<br><p>About the job:</p>Key Responsibilities:<br />\n<br />\n1. Design and implement end-to-end automation workflows using n8n, Zapier, Make, or similar platforms.<br />\n2. Develop and maintain REST APIs, backend services, dashboards, and internal tools.<br />\n3. Build automation scripts for data processing and third-party system integrations.<br />\n4. Integrate APIs, databases, CRMs, and SaaS applications.<br />\n5. Monitor, troubleshoot, and optimize automation workflows for performance and reliability.<br />\n6. Collaborate with business stakeholders to translate requirements into technical solutions.<br />\n7. Document automation workflows, integrations, and technical processes.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 5,00,000 - 8,00,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-08-21 23:59:59<br><br><p>Skills required:</p>JavaScript, Python, Git, Node.js, Problem Solving, Docker, Automation, Web development, Microsoft Azure, REST API, APIs and AWS CloudFormation<br><br><p>Other Requirements:</p><ol><li>1. Strong analytical and problem-solving skills with a passion for automation and software development.</li><li>2. Hands-on experience or academic projects in Python, JavaScript, REST APIs, SQL, or automation tools.</li><li>3. GitHub repositories, portfolio websites, or real-world automation projects are preferred.</li><li>4. Freshers with strong technical projects are welcome to apply.</li><li>5. Immediate joiners or candidates with a notice period of 30 days or less are preferred.</li></ol><br><br><p>About Company:</p>Kalash Group, established in Jaipur in 2023, is a real estate company focused on sustainable development and innovative solutions. Its mission is to enhance living experiences through high-quality services while building trust and long-term customer relationships. The company emphasizes professionalism, attention to detail, and delivering the best value in every project.",
-    "is_preferred": 0,
-    "date_posted": "2026-06-28",
-    "experience": "No experience required",
-    "company_logo": "",
-    "date_fetched": "2026-07-29"
-  },
-  {
-    "title": "Junior Product Analyst",
-    "company": "Stitch",
-    "location": "Chennai",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/fresher-junior-product-analyst-job-in-chennai-at-stitch1785315246",
-    "description": "<br><p>About the job:</p>Are you a tech-savvy individual with a passion for product analysis and development? Look no further - Stitch company is seeking a dynamic Junior Product Analyst to join our innovative team! <br />\n<br />\nKey Responsibilities:<br />\n<br />\n1. Collaborate with product managers to gather and analyze requirements for new features and enhancements.<br />\n2. Create detailed user stories and product documentation to guide the development team.<br />\n3. Utilize APIs and tools like Postman to test and validate product functionality.<br />\n4. Manage product development tasks and workflows in Jira, ensuring timely delivery of high-quality products.<br />\n5. Utilize SQL and Advanced Excel to extract and analyze data for product performance evaluation.<br />\n6. Develop automation scripts using Python and Java to streamline product testing processes.<br />\n7. Work closely with cross-functional teams to ensure seamless product integration and deployment.<br />\n<br />\nIf you are a motivated self-starter with a strong technical background in product management and development, we want to hear from you! Join Stitch company and take your career to the next level in a fast-paced and dynamic environment. Apply now and be part of our exciting journey!<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 5,00,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-08-28 23:59:59<br><br><p>Other perks:</p>5 days a week, Free snacks & beverages, Health Insurance, Life Insurance<br><br><p>Skills required:</p>Java, Python, SQL, Product Management, Advanced Excel, Product Development, Jira, Postman, APIs and User Stories<br><br><p>Other Requirements:</p><ol><li>MBA with CSE or IT in UG - Mandatory</li></ol><br><br><p>About Company:</p>Stitch is the operating system built for modern financial institutions enabling you to build, launch, and scale. Whether you're storing, moving, or lending money, Stitch lets you launch faster, simpler, and more cost-effectively.",
-    "is_preferred": 1,
-    "date_posted": "2026-07-29",
-    "experience": "No experience required",
-    "company_logo": "https://internshala-uploads.internshala.com/logo%2Fiu9bkkl9rto-12302.jpg.webp",
-    "date_fetched": "2026-07-29"
-  },
-  {
     "title": "SAP Developer – ABAP",
     "company": "Warewe Consultancy Private Limited",
     "location": "Gurgaon",
@@ -3365,5 +3300,18 @@
     "experience": "1 year(s)",
     "company_logo": "https://internshala-uploads.internshala.com/logo%2Fc9k10l9dia3-1787730362.png.webp",
     "date_fetched": "2026-08-27"
+  },
+  {
+    "title": "Artificial Intelligence (AI) Specialist",
+    "company": "BubbleNut Wash",
+    "location": "Bangalore",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/artificial-intelligence-ai-specialist-job-in-bangalore-at-bubblenut-wash1787890701",
+    "description": "<br><p>About the job:</p>Key responsibilities: <br />\n<br />\n1. Create simple AI tools for farmers that can assess quality of crops, diseases, grading, <br />\n2. Integrate it with Whatsapp so that farmers can use voice-based instructions<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 3,00,000 - 5,00,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-09-27 23:59:59<br><br><p>Other perks:</p>Informal dress code<br><br><p>Skills required:</p>Artificial intelligence<br><br><p>About Company:</p>BubbleNut Wash is a direct-to-consumer (D2C) brand of sustainable home cleaners. Using a path-breaking extraction technology, the enterprise has been able to create a hundred percent plant-based cleaning products that are safe on the skin and planet-friendly. Being a digital-first brand, we look to utilize a host of digital tools and channels to reach out to our community.",
+    "is_preferred": 1,
+    "date_posted": "2026-08-28",
+    "experience": "1 year(s)",
+    "company_logo": "https://internshala-uploads.internshala.com/logo%2F6260e34f6d6731650516815.png.webp",
+    "date_fetched": "2026-08-28"
   }
 ]
