@@ -1,18 +1,5 @@
 [
   {
-    "title": "System Architect",
-    "company": "Antiworld",
-    "location": "Hyderabad",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/system-architect-job-in-hyderabad-at-antiworld1784707249",
-    "description": "<br><p>About the job:</p>We are looking for a 'Senior System Architect' to design and build the core middleware and communication platform for advanced real-time simulation systems. You will architect distributed software, networking layers, hardware integration, and scalable communication frameworks. Experience with DDS is beneficial but not mandatory. The primary focus is strong systems engineering, middleware design, networking, and modern C++. <br />\n<br />\nKey responsibilities:<br />\n<br />\n1. Design scalable distributed software architectures for real-time simulation platforms. <br />\n2. Develop middleware connecting simulator components. <br />\n3. Build networking layers using TCP/IP, UDP, WebSockets, and IPC. <br />\n4. Design publish/subscribe and event-driven communication systems. <br />\n5. Develop distributed synchronization and low-latency messaging. <br />\n6. Integrate hardware, simulators, displays, and instructor stations. <br />\n7. Develop multithreaded and asynchronous software. <br />\n8. Evaluate technologies such as DDS, shared memory, gRPC, and similar middleware where appropriate. <br />\n9. Optimize reliability, scalability, and performance. <br />\n10. Collaborate with simulation, firmware, hardware, and software teams.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 3,00,000 - 7,00,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-08-21 23:59:59<br><br><p>Other perks:</p>Informal dress code<br><br><p>Skills required:</p>Computer Networking, Linux, C++ Programming, TCP/IP, Debugging, Wireshark, Network protocols, System Design and GDB<br><br><p>Other Requirements:</p><ol><li>A. Required skills:</li><li>1. Modern C++ (C++17/20)</li><li>2. Linux development</li><li>3. Distributed systems</li><li>4. Middleware architecture</li><li>5. TCP/IP, UDP, WebSockets</li><li>6. Multithreading & concurrency</li><li>7. Object-oriented design, data structures & algorithms</li><li>8. IPC & system design</li><li>9. Git, debugging & performance optimization</li><li>B. Preferred skills:</li><li>1. Experience with DDS (RTI Connext DDS, Fast DDS, OpenDDS, or Cyclone DDS)</li><li>2. Shared memory communication</li><li>3. Protobuf/binary serialization</li><li>4. gRPC, Kafka, RabbitMQ, or ZeroMQ</li><li>5. Hardware integration</li><li>6. Real-time simulation systems</li></ol><br><br><p>About Company:</p>Antiworld is a defense technology company focused on transforming India's and allied military capabilities through advanced, autonomous AI-powered systems. Based in Hyderabad.",
-    "is_preferred": 1,
-    "date_posted": "2026-07-22",
-    "experience": "1 year(s)",
-    "company_logo": "https://internshala-uploads.internshala.com/logo%2Fib9adbm1vra-12341.jpg.webp",
-    "date_fetched": "2026-08-09"
-  },
-  {
     "title": "Full Stack Developer",
     "company": "Mepass",
     "location": "Ahmedabad",
@@ -3248,5 +3235,44 @@
     "experience": "No experience required",
     "company_logo": "",
     "date_fetched": "2026-09-07"
+  },
+  {
+    "title": "Desktop Support Engineer",
+    "company": "Isourse",
+    "location": "Kolkata",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/desktop-support-engineer-job-in-kolkata-at-isourse1788864524",
+    "description": "<br><p>About the job:</p>Key Responsibilities:<br />\n<br />\n1. Provide technical support for desktops, laptops, printers, and peripherals.<br />\n2. Install, configure, and maintain operating systems (Windows, Linux, Mac).<br />\n3. Troubleshoot hardware and software issues promptly.<br />\n4. Manage user accounts, permissions, and access in Active Directory.<br />\n5. Support network-related issues, including LAN, Wi-Fi, and VPN connectivity.<br />\n6. Install and configure applications and security tools.<br />\n7. Perform system upgrades, patches, and regular maintenance.<br />\n8. Maintain IT asset inventory and documentation.<br />\n9. Provide remote and on-site support to users.<br />\n10. Coordinate with vendors for hardware repairs and replacements.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 2,20,000 - 3,00,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-10-08 23:59:59<br><br><p>Skills required:</p>Configuration Management, Microsoft Outlook and Troubleshooting<br><br><p>About Company:</p>Isourse is a tech startup providing comprehensive solutions to customers across their tech and infrastructure needs, primarily in the supply chain, logistics, and e-fulfillment industries. We prioritize understanding customer requirements to deliver tailored solutions and strive for the highest service standards. We achieve this by offering our clients dedicated attention whenever necessary. Our advanced technology enhances performance, safety, and usability across all markets we serve. As an engineering and technology company, we are committed to recruiting top talent in these fields. Our vertical integration business model, which retains all design and manufacturing processes in-house, drives us to seek high achievers from diverse backgrounds, including operations, finance, accounting, information technology, sales, marketing, and communications.",
+    "is_preferred": 0,
+    "date_posted": "2026-09-08",
+    "experience": "1 year(s)",
+    "company_logo": "https://internshala-uploads.internshala.com/logo%2F5e2fde68c46a41580195432.png.webp",
+    "date_fetched": "2026-09-08"
+  },
+  {
+    "title": "Internet of Things (IoT) Associate",
+    "company": "Elicius Energy Private Limited",
+    "location": "Chennai",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/internet-of-things-iot-associate-job-in-chennai-at-elicius-energy-private-limited1788858321",
+    "description": "<br><p>About the job:</p>Key Responsibilities:<br />\n<br />\n1. Developing a hardware prototype for IoT nodes using ESP32, STM32, and NRF (the nodes will be enabled with LTE and will also have an array of sensors attached to them)<br />\n2. Work on wired and wireless protocols such as UART, I2C, SPI, Bluetooth, WiFi, HTTP, MQTT, BLE, ESPNOW, etc.<br />\n3. Design, develop, and maintain firmware for our IoT device<br />\n4. Work on developing firmware using platforms such as PlatformIO and Arduino IDE<br />\n5. Work closely with the hardware team to ensure seamless integration of the firmware with the hardware components<br />\n6. Work closely with the software team to ensure device management, OTA, and dashboard-like services<br />\n7. Test and validate the firmware to ensure functionality and performance<br />\n8. Work on preparing documentation for firmware<br />\n9. Work on writing firmware that is apparent with proper indentation and comments<br />\n10. Work on deploying the said IoT in the field and testing them (this would require the candidate to assemble & deploy such nodes and validate the prototypes)<br />\n11. Experience with PCB design tools like EasyEDA, KiCad, and Altium.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are from Chennai only</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 2,58,000 - 2,60,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-10-08 23:59:59<br><br><p>Other perks:</p>Informal dress code, 5 days a week<br><br><p>Skills required:</p>Embedded Systems, Arduino, C Programming, PCB Design, Product Development, Internet of Things (IoT), RTOS, Soldering, Amazon Web Services (AWS) and ESP32<br><br><p>Other Requirements:</p><ol><li>1. Knowledge of embedded systems and IoT with six months of experience in the electronics industry and in developing firmware for IoT devices using microcontrollers such as ESP32, STM32, and NRF modules (BLE).</li><li>2. Bachelor's or Master's degree in Electrical/Electronics/Instrumentation/Computer Engineering or related fields.</li><li>3. Freshers can also apply.</li></ol><br><br><p>About Company:</p>At Elicius Energy, we envision a future where industries thrive sustainably through innovation in chemical engineering, IoT-driven technologies, and advanced data analytics. We deliver tailor-made, data-centric solutions with a strong commitment to environmental stewardship, industrial efficiency, and sustainable development.<br />\r\nElicius Energy is an IIT Madras-incubated startup, led by Prof. Raghunathan Rengaswamy from the Department of Chemical Engineering, IIT Madras, combining strong academic leadership with industry-focused innovation.<br />\r\n<br />\r\nElicius Energy comprises the following research, development, and training streams:<br />\r\n1. Data science and machine learning<br />\r\n2. Air quality monitoring IoT systems<br />\r\n3. Energy systems<br />\r\n4. Chemical process modelling<br />\r\n5. IoT training and industrial upskilling<br />\r\n6. Experimental chemical engineering",
+    "is_preferred": 1,
+    "date_posted": "2026-09-08",
+    "experience": "1 year(s)",
+    "company_logo": "https://internshala-uploads.internshala.com/logo%2Fohcaheytj3_-18139.jpg.webp",
+    "date_fetched": "2026-09-08"
+  },
+  {
+    "title": "Technical Trainer",
+    "company": "ByteXL TechEd Private Limited",
+    "location": "Hyderabad, Tamilpadi",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/technical-trainer-job-in-multiple-locations-at-bytexl-teched-private-limited1788856970",
+    "description": "\n    Key responsibilities: <br>\n<br>\n1. Deliver engaging and comprehensive training sessions on C Programming and Python for students/trainees.<br>\n2. Develop, update, and maintain course curriculum, training materials, coding assignments, and assessments.<br>\n3. Evaluate trainee performance, provide constructive feedback, and track their learning progress.<br>\n4. Conduct hands-on practical sessions and assist trainees in debugging code and resolving technical doubts.<br>\n5. Stay updated with the latest industry trends and software development practices to ensure the training content remains relevant.",
+    "is_preferred": 1,
+    "date_posted": "2026-09-08",
+    "experience": "1 year(s)",
+    "company_logo": "",
+    "date_fetched": "2026-09-08"
   }
 ]
