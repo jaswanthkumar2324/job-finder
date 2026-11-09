@@ -1,18 +1,5 @@
 [
   {
-    "title": "UI/UX Developer - React",
-    "company": "Redgrape Technologies Private Limited",
-    "location": "Noida",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/fresher-ui-ux-developer-react-job-in-noida-at-redgrape-technologies-private-limited1791559746",
-    "description": "<br><p>About the job:</p>Key responsibilities: <br />\n<br />\n1. Develop UI/UX interfaces as per design specifications.<br />\n2. Program interactive elements.<br />\n3. Integrate backend APIs.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 3,00,000 - 5,00,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-11-08 23:59:59<br><br><p>Skills required:</p>JavaScript<br><br><p>Other Requirements:</p><ol><li>1. We are looking for good programmers with an analytical mind.</li><li>2. Available for a full-time job.</li><li>3. Should have exposure to docker/containers.</li><li>4. The candidate should have excellent programming skills and a mind for using data structures based on the problem.</li></ol><br><br><p>About Company:</p>RedGrape was founded with the vision of bringing technology to everyone in order to improve the quality of life of common people. When we look around, we find that there are many problems that can be solved if the technology is available at the right cost and scale. Many times, the cost of the technology itself acts as a deterrent. RedGrape attempts to bring this barrier down by designing and implementing systems and solutions in an optimized and cost-effective manner.",
-    "is_preferred": 0,
-    "date_posted": "2026-10-09",
-    "experience": "No experience required",
-    "company_logo": "https://internshala-uploads.internshala.com/logo%2F5e2fde36a20311580195382.jpg.webp",
-    "date_fetched": "2026-10-10"
-  },
-  {
     "title": "Food Technologist",
     "company": "Hello Edge",
     "location": "Pune",
@@ -2598,5 +2585,44 @@
     "experience": "1 year(s)",
     "company_logo": "https://internshala-uploads.internshala.com/logo%2F60d0994d0d9181624283469.png.webp",
     "date_fetched": "2026-11-08"
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "Trexo Fintech Private Limited",
+    "location": "Goregaon Kh",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/full-stack-developer-job-in-goregaon-kh-at-trexo-fintech-private-limited1794229451",
+    "description": "<br><p>About the job:</p>Required Skills:<br />\nStrong hands-on experience with Node.js and JavaScript/TypeScript.<br />\nProficiency in React.js/Next.js for building responsive frontend applications.<br />\nGood working knowledge of PostgreSQL, including writing optimized SQL queries and database design.<br />\nExperience in designing, building, and integrating REST APIs.<br />\nProficiency with Git and collaborative version control workflows.<br />\nAbility to work independently, take ownership of features, and collaborate effectively with the team.<br />\n<br />\nGood to Have:<br />\n<br />\nFamiliarity with Docker and containerized environments.<br />\nExposure to unit testing and code review practices.<br />\nExperience in setting up and managing message queues (e.g., RabbitMQ, Kafka, Redis/BullMQ).<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are from Goregaon Kh only</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 2,40,000 - 3,00,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-12-09 23:59:59<br><br><p>Other perks:</p>Informal dress code, 5 days a week, Health Insurance, Life Insurance<br><br><p>Skills required:</p>JavaScript, Git, Node.js, PostgreSQL, Docker, REST API, RabbitMQ, TypeScript, Apache Kafka , Next.js and Redis<br><br><p>About Company:</p>Trexo Fintech Pvt. Ltd. is a technology-driven fintech company focused on building innovative API Banking and embedded financial solutions. The company enables businesses, fintechs, and digital platforms to seamlessly integrate banking and financial services into their own products and ecosystems through secure, scalable, and reliable APIs.<br />\r\n<br />\r\nTrexo's API-first approach helps simplify access to essential financial infrastructure, including digital banking, payments, account services, financial data, and other embedded finance capabilities. By connecting technology platforms with financial services, Trexo enables businesses to build faster, more efficient, and customer-centric financial experiences. With a strong focus on technology, security, compliance, and seamless integrations, Trexo is building the infrastructure that powers the next generation of digital financial services.",
+    "is_preferred": 0,
+    "date_posted": "2026-11-09",
+    "experience": "1 year(s)",
+    "company_logo": "",
+    "date_fetched": "2026-11-09"
+  },
+  {
+    "title": "Technical Support Associate",
+    "company": "ASCLOUDSECURE",
+    "location": "Chennai, Delhi, Gurgaon, Indore, Pune, Hyderabad, Mumbai, Jaipur, Noida, Bangalore",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/fresher-technical-support-associate-job-in-multiple-locations-at-ascloudsecure1794195111",
+    "description": "\n    Key Responsibilities: <br>\n<br>\n1. Provide technical support to clients by diagnosing and resolving issues promptly.<br>\n2. Assist clients in setting up and navigating software or systems.<br>\n3. Collaborate with clients to understand their needs and ensure a positive experience.<br>\n4. Promote the value of products and services by delivering exceptional support.<br>\n5. Document customer interactions and maintain detailed records of technical issues.<br>\n6. Escalate unresolved problems to higher-level support or development teams.<br>\n7. Assist in creating user guides, FAQs, and training materials to enhance customer onboarding and experience.<br>\n8. Conduct training sessions for clients to maximize product adoption and usability.<br>\n9. Proactively identify and suggest improvements to systems, processes, or services.<br>\n10. Monitor and report on client feedback to improve support strategies and product development.",
+    "is_preferred": 1,
+    "date_posted": "2026-11-09",
+    "experience": "No experience required",
+    "company_logo": "",
+    "date_fetched": "2026-11-09"
+  },
+  {
+    "title": "Document Verification Associate (Part Time-Home Based Job-WFH)",
+    "company": "Desnor Destination",
+    "location": "Work from home",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/fresher-remote-part-time-document-verification-associate-part-time-home-based-job-wfh-job-at-desnor-destination1794165841",
+    "description": "<br><p>About the job:</p>Are you detail-oriented and organized? Do you have experience in document management and review? Are you a pro at report writing and social media marketing? If so, we have the perfect job for you! Join our team at Desnor Destination as a Document Verification Specialist in a part-time, home-based role.<br />\n<br />\nKey Responsibilities:<br />\n<br />\n1. Verify and review all incoming documents for accuracy and compliance.<br />\n2. Create detailed reports based on document findings and analysis.<br />\n3. Manage and organize all documents in the company database.<br />\n4. Utilize social media platforms to promote company services and engage with customers.<br />\n5. Assist in team management and coordination of document verification tasks.<br />\n6. Ensure all documents adhere to company policies and procedures.<br />\n7. Collaborate with other departments to ensure seamless document flow and communication.<br />\n<br />\nIf you have strong communication skills, excellent time management, and a passion for document management, this job is perfect for you. Join us at Desnor Destination and be a key player in our success!<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 3,00,000 - 4,50,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-12-09 23:59:59<br><br><p>Skills required:</p>Team Management, Report Writing, Document Management, Management and Document Review<br><br><p>About Company:</p>Desnor Destination was founded in 2017 with the single mission of delivering high-quality travel & tourism services to worldwide customers. Desnor Destination is a state-of-the-art, futuristic company providing travel & tourism services by integrating people, processes and technology, to focus on the customers. Desnor Destination brings together the best in people, process and technology to ensure delivery of the highest quality services.",
+    "is_preferred": 0,
+    "date_posted": "2026-11-09",
+    "experience": "No experience required",
+    "company_logo": "",
+    "date_fetched": "2026-11-09"
   }
 ]
