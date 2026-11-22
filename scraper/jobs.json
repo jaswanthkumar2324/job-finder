@@ -1,96 +1,5 @@
 [
   {
-    "title": "QA Engineer (Manual + Basic Automation)",
-    "company": "AK IT SOLUTIONS",
-    "location": "Ahmedabad",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/fresher-qa-engineer-manual-basic-automation-job-in-ahmedabad-at-ak-it-solutions1792391783",
-    "description": "<br><p>About the job:</p>QA Engineer (Manual + Basic Automation) - Fresher Only<br />\n<br />\nWe are looking for a QA Engineer who has strong manual testing skills and basic knowledge of automation. The ideal candidate should be detail-oriented, passionate about quality, and able to collaborate with developers, product teams, and automation engineers.<br />\n<br />\nKey responsibilities:<br />\n<br />\n1. Perform manual testing of web and mobile applications.<br />\n2. Create, review, and update test cases, test scenarios, and test data.<br />\n3. Execute functional, regression, UI, smoke, and integration testing.<br />\n4. Log defects with complete details and track them until closure.<br />\n5. Work with the development team to reproduce issues and verify fixes.<br />\n6. Run and maintain basic automation test scripts (Playwright/Selenium preferred).<br />\n7. Participate in sprint activities and ensure quality deliverables.<br />\n8. Review requirements and raise clear questions or gaps.<br />\n9. Contribute to improving QA processes and test coverage.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are from Ahmedabad only</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 2,00,000 - 3,00,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-11-22 23:59:59<br><br><p>Other perks:</p>Informal dress code, 5 days a week, Free snacks & beverages<br><br><p>Skills required:</p>Software Testing, Manual Testing and Test Automation<br><br><p>Other Requirements:</p><ol><li>A. Required skills:</li><li>1. Strong understanding of SDLC & STLC.</li><li>2. Good knowledge of manual testing concepts.</li><li>3. Basic experience with any automation tool (Playwright/Selenium/Cypress).</li><li>4. Ability to write simple automated scripts (JavaScript/Java/Python).</li><li>5. Experience with tools like Jira, TestRail, Postman, etc.</li><li>6. Understanding of API testing (basic request/response validation).</li><li>7. Good communication and problem-solving skills.</li><li>8. Attention to detail and ability to work independently.</li><li>B. Good to have (not mandatory):</li><li>1. Basic knowledge of CI/CD</li><li>2. Exposure to Git/GitHub</li><li>3. Knowledge of SQL queries</li><li>4. Experience with any performance testing tool (optional)</li><li>5. Education</li><li>6. B.E/B.Tech/BCA/MCA or equivalent degree.</li><li>7. Freshers can apply</li></ol><br><br><p>About Company:</p>AK IT Solutions is a trusted manpower and workforce solutions company providing skilled human resources across banking, IT, finance, education, healthcare, manufacturing, retail, and other industries.",
-    "is_preferred": 0,
-    "date_posted": "2026-10-19",
-    "experience": "No experience required",
-    "company_logo": "https://internshala-uploads.internshala.com/logo%2F74gb4w5ldwu-2215.png.webp",
-    "date_fetched": "2026-10-23"
-  },
-  {
-    "title": "Full Stack Developer",
-    "company": "InstaWeb Labs Private Limited",
-    "location": "Mumbai",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/full-stack-developer-job-in-mumbai-at-instaweb-labs-private-limited1792719508",
-    "description": "<br><p>About the job:</p>Key Responsibilities: <br />\n<br />\n1) Develop, maintain, and enhance the Websites.co.in iOS app using React Native, delivering new features and improvements.<br />\n2) Integrate APIs and use Laravel to build scalable and reliable functionality.<br />\n3) Identify, troubleshoot, and resolve bugs while optimizing app performance and user experience.<br />\n4) Manage app releases and ensure code quality through testing and reviews.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are from Mumbai only</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 2,40,000 - 6,00,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-11-22 23:59:59<br><br><p>Other perks:</p>Informal dress code, 5 days a week, Free snacks & beverages<br><br><p>Skills required:</p>PHP, Laravel, React and React Native<br><br><p>Other Requirements:</p><ol><li>1. Minimum 1+ years of experience in iOS development.</li><li>2. Proficiency in Swift, Objective-C, and the iOS SDK.</li><li>3. Proven experience publishing applications on the Apple App Store.</li><li>4. Strong understanding of mobile architecture patterns such as MVVM, MVC, and MVP.</li><li>5. Experience integrating iOS applications with RESTful APIs.</li><li>6. Familiarity with Git and version control workflows.</li><li>7. Knowledge of iOS testing tools and best practices.</li><li>8. Strong analytical and problem-solving skills.</li><li>9. Familiarity with and hands-on experience in Laravel.</li></ol><br><br><p>About Company:</p>Websites.co.in is revolutionizing the website-building industry with the world's simplest platform, empowering micro-business owners to create their websites in just 15 minutes. Our platform supports nearly 4 million users across 190+ countries and 98 languages, helping them establish their online presence through websites, blogs, and eCommerce stores. With a stellar rating of 4.5 out of 5 stars from nearly 50,000 reviews, our app stands out in the market. Recognized globally, our app has been featured thousands of times by Google Play Store editors in the business category. We are proud to be supported by Facebook's FbStart and the Cornell Maha60 Program, a collaboration between the Government of Maharashtra and Cornell University. Additionally, we were selected by Google as one of the Top 100 apps from India under the Google Appscale First Cohort and have been highlighted as a Rising Star among the Most Innovative Apps from India.",
-    "is_preferred": 0,
-    "date_posted": "2026-10-23",
-    "experience": "1 year(s)",
-    "company_logo": "https://internshala-uploads.internshala.com/logo%2F5e2fdd38e86a21580195128.png.webp",
-    "date_fetched": "2026-10-23"
-  },
-  {
-    "title": "Food Quality Supervisor",
-    "company": "FarmDidi",
-    "location": "Greater Noida",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/food-quality-supervisor-job-in-greater-noida-at-farmdidi1792737885",
-    "description": "<br><p>About the job:</p>As food quality supervisor at FarmDidi, you'll oversee day-to-day quality checks and help ensure food handling and testing follow established standards. You'll work closely with colleagues to spot issues early, communicate findings clearly, and support consistent, reliable processes.<br />\n<br />\nKey Responsibilities: <br />\n<br />\n1. Supervise routine quality checks at relevant stages of food handling, recording results accurately and flagging deviations.<br />\n2. Coordinate laboratory testing, prepare or review samples, and use appropriate laboratory techniques to help verify quality and safety.<br />\n3. Review test data and inspection records, identify recurring concerns, and share clear findings with the appropriate teams.<br />\n4. Check that quality procedures are followed, including sampling, documentation, equipment use, and hygiene practices.<br />\n5. Investigate quality deviations with colleagues, document likely causes, and track corrective actions through to completion.<br />\n6. Maintain orderly, accurate quality records and prepare updates for internal reviews or audits.<br />\n7. Guide team members on quality checks and documentation, communicating expectations and changes in a clear, practical way.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 2,80,100 - 4,50,500 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-11-22 23:59:59<br><br><p>Other perks:</p>Informal dress code, 5 days a week<br><br><p>Skills required:</p>Quality Assurance/Quality Control (QA/QC), Effective Communication and Laboratory Techniques<br><br><p>Other Requirements:</p><ol><li>1. Food technology graduate, agriculture graduate preferred.</li></ol><br><br><p>About Company:</p>FarmDidi is a women-led social enterprise on a mission to empower 1 million rural women by helping them become successful food entrepreneurs. Recognized by Shark Tank India, UN, and Wharton, FarmDidi bridges the gap between rural kitchens and urban homes by bringing preservative-free, homemade delicacies crafted by women entrepreneurs across India. <br />\r\n",
-    "is_preferred": 0,
-    "date_posted": "2026-10-23",
-    "experience": "1 year(s)",
-    "company_logo": "",
-    "date_fetched": "2026-10-23"
-  },
-  {
-    "title": "Software Developer",
-    "company": "Tagjoy Consultants Private Limited",
-    "location": "Delhi, Noida",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/software-developer-job-in-multiple-locations-at-tagjoy-consultants-private-limited1792726383",
-    "description": "\n    We are looking for a Software Developer with hands-on experience in Flutter, React.js, Node.js, and MySQL to join our development team.<br>\n<br>\nKey responsibilities: <br>\n<br>\n1. Develop and maintain mobile applications using Flutter.<br>\n2. Develop and maintain web applications using React.js.<br>\n3. Build and integrate REST APIs using Node.js.<br>\n4. Work with MySQL databases and write optimized queries.<br>\n5. Integrate frontend applications with backend APIs.<br>\n6. Debug and fix application issues and bugs.<br>\n7. Write clean, reusable, and maintainable code.<br>\n8. Work with Git/GitHub for version control.<br>\n9. Collaborate with the team to develop and deliver new features.",
-    "is_preferred": 0,
-    "date_posted": "2026-10-23",
-    "experience": "1 year(s)",
-    "company_logo": "",
-    "date_fetched": "2026-10-23"
-  },
-  {
-    "title": "AI Annotation Team Lead",
-    "company": "Zyno AI India Private Limited",
-    "location": "Work from home",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/remote-ai-annotation-team-lead-job-at-zyno-ai-india-private-limited1792751681",
-    "description": "<br><p>About the job:</p>We are looking for a detail-oriented and proactive AI Annotation Team Lead to lead our data annotation team while actively contributing to the annotation process.<br />\n<br />\nThis is a hands-on role that requires performing word alignment and annotation, along with ensuring high-quality output, reviewing team deliverables, and maintaining productivity across the team.<br />\n<br />\nKey responsibilities:<br />\n4 hours hands on reviewing, alignment, rating and annotation<br />\n6 hours quality assurance, coaching, mentoring  <br />\n<br />\nDeliverables - Team should meet daily throughput within quality metrics<br />\n<br />\nMust be capable of leading up to 50 people, taking ownership of team quality, throughput, coaching, and results, working flexible or extended hours (including Saturdays), and thriving in a fast-paced, dynamic environment while driving team performance.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 4,20,000 - 6,00,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-11-22 23:59:59<br><br><p>Skills required:</p>Leadership, Team Management and Data Annotation<br><br><p>About Company:</p>The company is ordinarily in the business of developing AI products. Our product, Zyka AI, empowers creators to generate stunning videos, images, and audio, making content creation faster, easier, and more accessible.",
-    "is_preferred": 0,
-    "date_posted": "2026-10-23",
-    "experience": "1 year(s)",
-    "company_logo": "https://internshala-uploads.internshala.com/logo%2F7gw79pl8p2h-84709.png.webp",
-    "date_fetched": "2026-10-23"
-  },
-  {
-    "title": "Digital Marketing Executive",
-    "company": "Cosmesi Global OPC Private Limited",
-    "location": "Bhopal",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/digital-marketing-executive-job-in-bhopal-at-cosmesi-global-opc-private-limited1792736929",
-    "description": "<br><p>About the job:</p>Cosmesi Global operates across three verticals: cosmetic raw materials, skincare and haircare products, and online cosmetic formulation education pan-India. We empower beauty entrepreneurs and enthusiasts through quality ingredients, innovative products, and professional formulation training.<br />\n<br />\nCosmesi Global is looking for a creative and motivated Digital Marketing executive to manage social media, website design and updates, digital marketing, and e-commerce activities.<br />\n<br />\nKey Responsibilities<br />\n<br />\n1. Manage social media accounts, plan content, and schedule posts.<br />\n2. Shoot and edit engaging reels, videos, and promotional creatives.<br />\n3. Assist with website design, content updates, and user experience improvements.<br />\n4. Manage e-commerce platforms, product listings, and website merchandising.<br />\n5. Support digital marketing campaigns, SEO, and online promotions.<br />\n6. Track marketing performance, website traffic, and engagement metrics.<br />\n7. Research trends and suggest ideas to improve brand visibility and sales.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are from Bhopal only</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 3,20,000 - 3,30,001 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-12-13 23:59:59<br><br><p>Other perks:</p>Informal dress code<br><br><p>Skills required:</p>Social Media Marketing, Digital Marketing, E-commerce and Web Design<br><br><p>Other Requirements:</p><ol><li>1. Available for a full-time, in-office role.</li><li>2. Has a strong interest in digital marketing, social media, website management, and e-commerce.</li><li>3. Creative, proactive, and willing to learn.</li><li>4. Skills Required: Social Media Marketing, Video Editing & Content Creation, Website Management & Basic Web Design, Digital Marketing & SEO, E-commerce Management, Canva and other creative tools, etc.</li></ol><br><br><p>About Company:</p>Cosmesi Global is a fast-growing beauty company operating across three verticals: premium cosmetic raw materials, skincare & haircare products, and online cosmetic formulation education. We help entrepreneurs, formulators, and beauty enthusiasts create high-quality personal care products through innovative ingredients, science-backed formulations, and industry-focused training. Our mission is to make cosmetic innovation accessible while empowering individuals to build successful beauty brands.",
-    "is_preferred": 0,
-    "date_posted": "2026-10-23",
-    "experience": "1 year(s)",
-    "company_logo": "",
-    "date_fetched": "2026-10-23"
-  },
-  {
-    "title": "Quality Analyst",
-    "company": "InstaAstro",
-    "location": "Noida",
-    "salary": "Competitive salary",
-    "url": "https://internshala.com/job/detail/quality-analyst-job-in-noida-at-instaastro1792654064",
-    "description": "<br><p>About the job:</p>As a quality analyst at InstaAstro, you'll help ensure software changes work as intended before they reach users. You'll combine careful manual testing with practical automation, collaborating with the team to identify issues early and improve release quality.<br />\n<br />\nKey Responsibilities: <br />\n<br />\n1. Review requirements and design notes to identify test scenarios, edge cases, and areas that need clarification.<br />\n2. Create and maintain clear test cases for new features, existing workflows, and regression coverage.<br />\n3. Perform manual testing across relevant platforms and report defects with reliable steps, expected results, and supporting details.<br />\n4. Use automation to cover repeatable checks, maintain existing scripts, and help expand regression testing where it adds value.<br />\n5. Verify fixes, investigate unexpected results, and track defects through resolution in collaboration with developers.<br />\n6. Participate in release testing and communicate coverage, findings, and outstanding risks clearly to the team.<br />\n7. Look for recurring quality issues and suggest practical improvements to testing processes and test coverage.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 3,00,000 - 6,00,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-11-21 23:59:59<br><br><p>Other perks:</p>Informal dress code, Free snacks & beverages<br><br><p>Skills required:</p>Software Testing, Manual Testing and Automation<br><br><p>About Company:</p>InstaAstro is a holistic wellness platform that integrates trusted Indian practices such as astrology, yoga, meditation, and mantra/chanting/pooja to address real-life challenges and deliver measurable mindfulness outcomes for customers during critical life stages (mega moments). Our platform offers users one-on-one astrology consultations along with daily activity tracks and content designed to assist with issues related to relationships, career, health, and personal growth. IA simplifies and innovates in the wellness sector with its unique remedy and action-based approach, effective across the mental health continuum.",
-    "is_preferred": 0,
-    "date_posted": "2026-10-22",
-    "experience": "1 year(s)",
-    "company_logo": "https://internshala-uploads.internshala.com/logo%2F647d92e483e131685951204.jpeg",
-    "date_fetched": "2026-10-23"
-  },
-  {
     "title": "Framer/Webflow Developer",
     "company": "Maayasthra",
     "location": "Work from home",
@@ -2741,5 +2650,31 @@
     "experience": "1 year(s)",
     "company_logo": "",
     "date_fetched": "2026-11-21"
+  },
+  {
+    "title": "UI Developer",
+    "company": "Voicedots Infotech",
+    "location": "Work from home",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/remote-ui-developer-job-at-voicedots-infotech1795337842",
+    "description": "<br><p>About the job:</p>At Voicedots Infotech, you'll build clear, responsive interfaces that help users navigate web experiences with ease. As a UI Developer, you'll work with React, JavaScript, HTML, and CSS to turn design requirements into polished, reliable interfaces.<br />\n<br />\nKey Responsibilities:<br />\n<br />\n1. Develop and maintain responsive and interactive user interfaces using React.js.<br />\n2. Convert UI/UX designs and wireframes into clean, functional, and visually appealing web pages.<br />\n3. Build reusable UI components using React.js.<br />\n4. Work with HTML5, CSS3, and JavaScript to develop frontend functionalities.<br />\n5. Ensure website responsiveness and cross-browser compatibility.<br />\n6. Implement navigation, forms, buttons, dashboards, tables, and other UI elements.<br />\n7. Integrate frontend components with REST APIs provided by the backend team.<br />\n8. Identify and fix UI-related bugs and improve website performance.<br />\n9. Collaborate with UI/UX designers and backend developers to ensure seamless frontend implementation.<br />\n10. Maintain clean, readable, and well-structured code.<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>have minimum 1 years of experience</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 2,00,000 - 2,40,000 /year<br><br><p>Experience:</p>1 year(s)<br><br><p>Deadline:</p>2026-12-22 23:59:59<br><br><p>Skills required:</p>HTML, CSS, JavaScript, User Interface (UI) Development, React and Responsive Design<br><br><p>About Company:</p>Voicedots Infotech is an AI-powered website voice bot and avatar platform based in Chennai, India, that enables human-like, real-time voice interactions for business websites.",
+    "is_preferred": 0,
+    "date_posted": "2026-11-22",
+    "experience": "1 year(s)",
+    "company_logo": "https://internshala-uploads.internshala.com/logo%2Fhh8b7gysqco-1790311224.png.webp",
+    "date_fetched": "2026-11-22"
+  },
+  {
+    "title": "Web Developer",
+    "company": "Samy Ak It Solution Private Limited",
+    "location": "Kolkata",
+    "salary": "Competitive salary",
+    "url": "https://internshala.com/job/detail/fresher-web-developer-job-in-kolkata-at-samy-ak-it-solution-private-limited1792650318",
+    "description": "<br><p>About the job:</p>Key Responsibilities:<br />\n<br />\n1. Develop responsive web pages using HTML, CSS, JavaScript, and React.js.<br />\n2. Convert design specifications into functional, accessible interfaces.<br />\n3. Integrate REST APIs and collaborate on application features.<br />\n4. Identify and resolve bugs, improve website performance, and ensure compatibility across browsers and devices.<br />\n5. Maintain clean, documented code using Git.<br />\n6. Collaborate with the team to deliver projects within agreed timelines<br><br><p>Who can apply:</p><ol><p>Only those candidates can apply who:</p><li>are from Kolkata only</li><li>are Computer Science Engineering students</li></ol><br><br><p>Salary:</p>₹ 6,12,000 - 13,30,000 /year<br><br><p>Experience:</p>No experience required<br><br><p>Deadline:</p>2026-12-12 23:59:59<br><br><p>Other perks:</p>Informal dress code, 5 days a week, Cab/Transportation facility<br><br><p>Skills required:</p>HTML, CSS, JavaScript, Bootstrap and React<br><br><p>About Company:</p>Samy AK IT Solution Private Limited is an IT solutions and technology services company focused on delivering reliable, innovative, and cost-effective digital solutions. The organization provides software development, IT consulting, web and mobile solutions, and other technology services tailored to meet the needs of businesses. With a focus on quality, customer satisfaction, and continuous innovation, the company aims to help organizations improve efficiency, strengthen their digital presence, and achieve sustainable growth through technology.",
+    "is_preferred": 0,
+    "date_posted": "2026-10-22",
+    "experience": "No experience required",
+    "company_logo": "",
+    "date_fetched": "2026-11-22"
   }
 ]
